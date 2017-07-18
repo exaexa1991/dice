@@ -11,5 +11,12 @@
 <input name="sai" type="text">
 <input type="button" value="振る" onClick="getNum()">
 </form>
+
+<script type="text/javascript">
+function getNum() {
+	r = Math.floor(Math.random() * 6) + 1; 
+	document.form1.sai.value = r; 
+}
+</script>
 </body>
 </html>
